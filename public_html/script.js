@@ -134,7 +134,7 @@ function initialize() {
 	var mapOptions = {
 		center: new google.maps.LatLng(CenterLat, CenterLon),
 		zoom: ZoomLvl,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		mapTypeId: "OSM",
 		mapTypeControl: true,
 		streetViewControl: false,
 		mapTypeControlOptions: {
